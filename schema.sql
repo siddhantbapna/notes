@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS notes;
+
+CREATE TABLE notes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    content TEXT NOT NULL,
+    user_token TEXT NOT NULL
+);
